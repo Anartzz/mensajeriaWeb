@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "mysql2": "^3.3.5"
+  },
+  "name": "controlador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

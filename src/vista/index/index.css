@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+#chats {
+    background-color: green;
+    height: 100%;
+    width: 25%;
+}
+
+.chat {
+    height: 100%;
+    width: 75%;
+}
+
+.mensajes {
+    background-color: pink;
+    width: 100%;
+    height: 80%;
+}
+
+.inputTexto {
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+}
+
+.chatResumen {
+    width: 100%;
+    height: 10%;
+}

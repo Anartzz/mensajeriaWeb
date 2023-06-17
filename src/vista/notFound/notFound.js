@@ -1,0 +1,1 @@
+alert("error: 404\narchivo js no encontrado")
