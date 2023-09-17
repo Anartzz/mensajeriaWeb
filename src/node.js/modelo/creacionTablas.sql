@@ -10,7 +10,7 @@ drop table usuarios cascade;
 create table usuarios (
 	id int auto_increment primary key,
 	nombre varchar(10),
-    contrasenna varchar(50),
+    contrasenna varchar(64),
     foto varchar(300)
 );
 
@@ -38,13 +38,15 @@ create table mensajes_grupo (
 );
 
 create table mensajes_chat (
+    id int auto_increment, 
 	usuario_id int,
     chat_id int,
     texto varchar(200),
     fecha_hora datetime,
+    leido tinyint(1) default 0,
     foreign key (usuario_id) references usuarios(id),
     foreign key (chat_id) references chats(id),
-    primary key (usuario_id, chat_id)
+    primary key (id)
 );
 
 create table participantes_grupo (

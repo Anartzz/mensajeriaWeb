@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "crypto": "^1.0.1",
     "http": "^0.0.1-security",
-    "mysql2": "^3.3.5"
+    "mysql2": "^3.3.5",
+    "ws": "^8.13.0"
   },
   "name": "controlador",
   "version": "1.0.0",

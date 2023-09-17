@@ -1,0 +1,13 @@
+#fotoPerfil {
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+
+#fotoPerfil:hover {
+    opacity: 0.5;
+}
+
+#inputFoto {
+    visibility: hidden;
+}

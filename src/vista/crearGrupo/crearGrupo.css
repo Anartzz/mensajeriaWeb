@@ -1,0 +1,47 @@
+:root {
+    margin: 0;
+}
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    height: 50vh;
+    width: 80vw;
+}
+
+#infoGrupo,
+#usuariosAgregados {
+    flex: 2;
+}
+
+#infoGrupo {
+    display: flex;
+    flex-direction: column;
+}
+
+#infoGrupo img {
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#usuariosAgregados img,
+#participantes img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#participantes {
+    flex: 1;
+}

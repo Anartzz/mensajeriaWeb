@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header>
-        <a href="" id="agregarUsuario">Agregar usuario</a>
-    </header>
-    <main>
-        <section id="chats"></section>
-        <section class="chat">
-            <div class="mensajes"></div>
-            <div class="inputTexto">
-                <input type="text">
-                <button>enviar</button>
-            </div>
-        </section>
-    </main>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <header>
+            <img
+                alt="foto de perfil"
+                id="fotoPerfil"
+                onerror="ponerFotoPrederteminada(this)"
+            />
+            <p id="nombreUsuario"></p>
+            <nav>
+                <a href="" id="agregarUsuario">Agregar usuario</a>
+                <a href="" id="cerrarSesion">Cerrar sesion</a>
+                <a href="" id="cuenta">Cuenta</a>
+                <a href="" id="crearGrupo">Crear grupo</a>
+            </nav>
+        </header>
+        <main>
+            <section id="chats"></section>
+            <section id="chat">
+                <div id="chatHead">
+                    <img src="" alt="foto perfil" class="fotoPerfil" />
+                    <h3></h3>
+                </div>
+                <div id="mensajes"></div>
+                <div id="input">
+                    <input type="text" id="nuevoMensaje" />
+                    <button id="enviar">enviar</button>
+                </div>
+            </section>
+        </main>
 
-    <script src="index.js"></script>
-</body>
+        <script src="index.js"></script>
+    </body>
 </html>

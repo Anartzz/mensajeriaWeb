@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="cuenta.css" />
+    </head>
+    <body>
+        <img
+            src=""
+            alt="foto de perfil"
+            id="fotoPerfil"
+            onerror="ponerFotoPrederteminada(this)"
+        />
+        <h1 id="nombre"></h1>
+        <input type="file" id="inputFoto" accept="image/*" name="foto" />
+        <input type="button" value="Guardar foto" id="guardarFoto" />
+        <p>informacion de la cuenta</p>
+
+        <script src="cuenta.js"></script>
+    </body>
+</html>
